@@ -30,20 +30,14 @@ Aplicativo Android simples para gerenciamento escolar, desenvolvido em Java com 
 
 ## 🖼️ Telas do Aplicativo
 
-### Tela Inicial
-<img src="imagens/2.png" width="200"/>
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="imagens/2.png" width="180"/>
+  <img src="imagens/3.png" width="180"/>
+  <img src="imagens/4.png" width="180"/>
+  <img src="imagens/1.png" width="180"/>
+  <img src="imagens/5.png" width="180"/>
+</div>
 
-### Menu de Cadastro
-<img src="imagens/3.png" width="200"/>
-
-### Cadastro de Aluno
-<img src="imagens/4.png" width="200"/>
-
-### Perfil do Aluno
-<img src="imagens/1.png" width="200"/>
-
-### Cadastro de Turma (Selecionar tutor e alunos)
-<img src="imagens/5.png" width="200"/>
 
 ---
 
