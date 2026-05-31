@@ -1,0 +1,52 @@
+package com.example.escola;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.Button;
+
+import androidx.activity.EdgeToEdge;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
+
+public class Escolha_Cadastro extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        EdgeToEdge.enable(this);
+        setContentView(R.layout.activity_escolha_cadastro);
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
+        });
+
+        Button btnCadAluno = findViewById(R.id.btn_cadAluno);
+        Button btnCadProf = findViewById(R.id.btn_cadProf);
+        Button btnCadTurma = findViewById(R.id.btn_cadTurma);
+        Button relatorio = findViewById(R.id.relatorio);
+
+
+        btnCadAluno.setOnClickListener(v -> {
+            Intent intent = new Intent(Escolha_Cadastro.this, CadastrarAluno.class);
+            startActivity(intent);
+        });
+
+        btnCadProf.setOnClickListener(v -> {
+            Intent intent = new Intent(Escolha_Cadastro.this, CadastroProfessor.class);
+            startActivity(intent);
+        });
+
+        btnCadTurma.setOnClickListener(v -> {
+            Intent intent = new Intent(Escolha_Cadastro.this, Cadastrar_Turmas.class);
+            startActivity(intent);
+        });
+
+        relatorio.setOnClickListener(v -> {
+            Intent intent = new Intent(Escolha_Cadastro.this, PesquisaJoin.class);
+            startActivity(intent);
+        });
+    }
+}

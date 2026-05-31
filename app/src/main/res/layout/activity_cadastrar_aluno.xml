@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastrarAluno">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/main"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#EEEEEE"
+                    tools:layout_editor_absoluteX="-3dp"
+                    tools:layout_editor_absoluteY="36dp">
+
+                    <FrameLayout
+                        android:id="@+id/frameLayout"
+                        android:layout_width="417dp"
+                        android:layout_height="273dp"
+                        android:background="@drawable/rounded_rectangle"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/logo" />
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="150dp"
+                            android:layout_height="72dp"
+                            android:layout_marginStart="85dp"
+                            android:layout_marginTop="14dp"
+                            android:src="@drawable/nome_escola_padawan" />
+
+                        <TextView
+                            android:id="@+id/tit1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginTop="120dp"
+                            android:fontFamily="@font/jockeyoneregular"
+                            android:text="@string/tit1"
+                            android:textColor="#5271FF"
+                            android:textSize="42sp" />
+
+                        <TextView
+                            android:id="@+id/tit2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="180dp"
+                            android:layout_marginTop="120dp"
+                            android:fontFamily="@font/jockeyoneregular"
+                            android:text="@string/tit2"
+                            android:textColor="#929292"
+                            android:textSize="42sp" />
+
+                        <TextView
+                            android:id="@+id/tit3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginTop="170dp"
+                            android:fontFamily="@font/jockeyoneregular"
+                            android:text="@string/tit3"
+                            android:textColor="#929292"
+                            android:textSize="42sp" />
+
+                    </FrameLayout>
+
+                    <EditText
+                        android:id="@+id/input_nome"
+                        android:layout_width="359dp"
+                        android:layout_height="46dp"
+                        android:layout_marginStart="26dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/input_cadastro"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                    <EditText
+                        android:id="@+id/input_cep"
+                        android:layout_width="165dp"
+                        android:layout_height="44dp"
+                        android:layout_marginStart="17dp"
+                        android:layout_marginTop="9dp"
+                        android:background="@drawable/input_cadastro"
+                        android:ems="10"
+                        android:hint="@string/hint_cep"
+                        android:inputType="textPostalAddress"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        app:layout_constraintStart_toEndOf="@+id/input_cpf"
+                        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="21dp"
+                        android:text="@string/label_cep"
+                        app:layout_constraintStart_toEndOf="@+id/textView4"
+                        app:layout_constraintTop_toBottomOf="@+id/input_tel" />
+
+                    <EditText
+                        android:id="@+id/input_cpf"
+                        android:layout_width="172dp"
+                        android:layout_height="44dp"
+                        android:layout_marginStart="26dp"
+                        android:layout_marginTop="9dp"
+                        android:background="@drawable/input_cadastro"
+                        android:ems="10"
+                        android:hint="@string/hint_cpf"
+                        android:inputType="text"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="26dp"
+                        android:layout_marginTop="22dp"
+                        android:text="@string/label_cpf"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/input_data" />
+
+                    <EditText
+                        android:id="@+id/input_tel"
+                        android:layout_width="175dp"
+                        android:layout_height="44dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="9dp"
+                        android:background="@drawable/input_cadastro"
+                        android:ems="10"
+                        android:hint="@string/hint_telefone"
+                        android:inputType="phone"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        app:layout_constraintStart_toEndOf="@+id/input_data"
+                        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+                    <EditText
+                        android:id="@+id/input_data"
+                        android:layout_width="167dp"
+                        android:layout_height="44dp"
+                        android:layout_marginStart="26dp"
+                        android:layout_marginTop="9dp"
+                        android:background="@drawable/input_cadastro"
+                        android:ems="10"
+                        android:hint="@string/hint_data_nascimento"
+                        android:inputType="date"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="28dp"
+                        android:text="@string/label_nome"
+                        android:textSize="14sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="49dp"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/label_telefone"
+                        android:textSize="14sp"
+                        app:layout_constraintStart_toEndOf="@+id/textView3"
+                        app:layout_constraintTop_toBottomOf="@+id/input_nome" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/label_data_nascimento"
+                        android:textSize="14sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/input_nome" />
+
+                    <EditText
+                        android:id="@+id/input_email"
+                        android:layout_width="357dp"
+                        android:layout_height="44dp"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginTop="9dp"
+                        android:background="@drawable/input_cadastro"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+                    <Button
+                        android:id="@+id/btn_editar"
+                        android:layout_width="105dp"
+                        android:layout_height="42dp"
+                        android:layout_marginStart="280dp"
+                        android:layout_marginTop="16dp"
+                        android:backgroundTint="#FACC56"
+                        android:text="@string/btn_salvar"
+                        android:textColor="#5271FF"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/input_nomeResp" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/label_email_contato"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/radioGroupNivel" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/label_nome_responsavel"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/input_email" />
+
+                    <EditText
+                        android:id="@+id/input_nomeResp"
+                        android:layout_width="357dp"
+                        android:layout_height="44dp"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginTop="9dp"
+                        android:background="@drawable/input_cadastro"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/label_nivel_ensino"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/input_cpf" />
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupNivel"
+                        android:layout_width="357dp"
+                        android:layout_height="144dp"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginTop="8dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+                        <RadioButton
+                            android:id="@+id/radioButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/input_cadastro"
+                            android:text="@string/radio_fundamental_1" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/input_cadastro"
+                            android:text="@string/radio_fundamental_2" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/input_cadastro"
+                            android:text="@string/radio_ensino_medio" />
+                    </RadioGroup>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</androidx.drawerlayout.widget.DrawerLayout>

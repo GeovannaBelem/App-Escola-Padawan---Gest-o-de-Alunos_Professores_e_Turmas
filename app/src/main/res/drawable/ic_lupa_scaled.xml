@@ -1,0 +1,10 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="10dp"
+        android:height="10dp"
+        android:gravity="center">
+        <bitmap
+            android:src="@drawable/iconlupa"
+            android:gravity="center" />
+    </item>
+</layer-list>

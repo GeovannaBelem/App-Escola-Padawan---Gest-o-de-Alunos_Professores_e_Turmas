@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Escola</string>
+    <string name="cadastrar_aluno">Cadastrar Aluno</string>
+    <string name="cadastrar_professor">Cadastrar Professor</string>
+    <string name="cadastrar_turma">Cadastrar Turma</string>
+
+    <string name="btn_cadastro">Cadastrar</string>
+    <string name="btn_aluno">Alunos</string>
+    <string name="btn_prof">Professores</string>
+    <string name="btn_turma">Turmas</string>
+
+    <string name="celular_label">Celular: %1$s</string>
+    <string name="email_label">Email: %1$s</string>
+    <string name="btn_saiba_mais">Saiba Mais</string>
+
+    <string name="nivel_ensino">Nível ensino: %1$s</string>
+
+    <string name="turma_label">Turma: %1$s</string>
+    <string name="professor_label">Professor: %1$s</string>
+    <string name="alunos_label">Alunos: %1$s</string>
+    <string name="turno_label">Turno: %1$s</string>
+
+    <string name="btn_cadAluno">Cadastrar aluno</string>
+    <string name="btn_cadProf">Cadastrar professor</string>
+    <string name="btn_cadTurma">Cadastrar turma</string>
+    <string name="registro">Registro</string>
+
+    <string name="titulo_quem">Quem</string>
+    <string name="titulo_voce_deseja">você deseja</string>
+    <string name="titulo_cadastrar">cadastrar?</string>
+
+    <string name="nome_escola">Padawan</string>
+
+    <string name="monitore">Monitore</string>
+    <string name="sua_escola">sua escola</string>
+    <string name="regulamente">regulamente</string>
+
+    <string name="btn_cadastrar">Cadastrar</string>
+
+    <string name="hint_procurar">Procurar</string>
+
+
+    <string name="tit1">Cadastre</string>
+    <string name="tit2">seu aluno</string>
+    <string name="tit3">nesta página</string>
+
+
+    <string name="label_nome">Nome:</string>
+    <string name="label_telefone">Telefone:</string>
+    <string name="label_data_nascimento">Data de nascimento:</string>
+    <string name="label_cpf">CPF:</string>
+    <string name="label_cep">CEP:</string>
+    <string name="label_email_contato">Email de contato:</string>
+    <string name="label_nome_responsavel">Nome do responsavel:</string>
+    <string name="label_nivel_ensino">Nivel de ensino:</string>
+
+
+    <string name="hint_cep">00000-000</string>
+    <string name="hint_cpf">000.000.000-00</string>
+    <string name="hint_telefone">(00) 00000-0000</string>
+    <string name="hint_data_nascimento">00/00/0000</string>
+
+
+    <string name="btn_salvar">Salvar</string>
+    <string name="btn_editar">Editar</string>
+
+    <string name="radio_fundamental_1">Ensino Fundamental I</string>
+    <string name="radio_fundamental_2">Ensino Fundamental II</string>
+    <string name="radio_ensino_medio">Ensino Médio</string>
+
+    <string name="tit4">seu professor</string>
+    <string name="tit5">nesta página</string>
+    <string name="label_salario">Salário:</string>
+    <string name="hint_salario">R$</string>
+    <string name="label_data_admissao">Data de admissão:</string>
+    <string name="hint_data_admissao">00/00/0000</string>
+    <string name="radio_feminino">Feminino</string>
+    <string name="radio_masculino">Masculino</string>
+
+
+    <string name="label_nome_turma">Nome da turma:</string>
+    <string name="label_tutor_responsavel">Tutor responsável:</string>
+    <string name="label_lista_alunos">Lista de alunos:</string>
+    <string name="label_turno">Turno:</string>
+
+    <string name="op_matutino">Matutino</string>
+    <string name="op_vespertino">Vespertino</string>
+
+    <string name="btn_excluir">Excluir</string>
+
+</resources>

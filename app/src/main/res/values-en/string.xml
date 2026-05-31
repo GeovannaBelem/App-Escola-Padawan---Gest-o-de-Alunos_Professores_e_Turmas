@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">School</string>
+    <string name="cadastrar_aluno">Register Student</string>
+    <string name="cadastrar_professor">Register Teacher</string>
+    <string name="cadastrar_turma">Register Class</string>
+
+    <string name="btn_cadastro">Register</string>
+    <string name="btn_aluno">Students</string>
+    <string name="btn_prof">Teachers</string>
+    <string name="btn_turma">Classes</string>
+
+    <string name="celular_label">Phone: %1$s</string>
+    <string name="email_label">Email: </string>
+    <string name="btn_saiba_mais">Learn More</string>
+
+    <string name="nivel_ensino">Education level: %1$s</string>
+
+    <string name="turma_label">Class: %1$s</string>
+    <string name="professor_label">Teacher: %1$s</string>
+    <string name="alunos_label">Students: %1$s</string>
+    <string name="turno_label">Shift: %1$s</string>
+
+    <string name="btn_cadAluno">Register student</string>
+    <string name="btn_cadProf">Register teacher</string>
+    <string name="btn_cadTurma">Register class</string>
+    <string name="registro">Register</string>
+
+    <string name="titulo_quem">Who</string>
+    <string name="titulo_voce_deseja">do you want to</string>
+    <string name="titulo_cadastrar">register?</string>
+
+    <string name="nome_escola">Padawan</string>
+
+    <string name="monitore">Monitor</string>
+    <string name="sua_escola">your school</string>
+    <string name="regulamente">regularly</string>
+
+    <string name="btn_cadastrar">Register</string>
+
+    <string name="hint_procurar">Search</string>
+
+    <string name="tit1">Register</string>
+    <string name="tit2">your student</string>
+    <string name="tit3">on this page</string>
+
+
+    <string name="label_nome">Name:</string>
+    <string name="label_telefone">Phone:</string>
+    <string name="label_data_nascimento">Date of birth:</string>
+    <string name="label_cpf">CPF:</string>
+    <string name="label_cep">Postal Code:</string>
+    <string name="label_email_contato">Contact Email:</string>
+    <string name="label_nome_responsavel">Guardians Name </string>
+    <string name="label_nivel_ensino">Education Level:</string>
+
+
+    <string name="hint_cep">00000-000</string>
+    <string name="hint_cpf">000.000.000-00</string>
+    <string name="hint_telefone">(00) 00000-0000</string>
+    <string name="hint_data_nascimento">MM/DD/YYYY</string>
+
+
+    <string name="btn_salvar">Save</string>
+
+    <string name="radio_fundamental_1">Elementary School I</string>
+    <string name="radio_fundamental_2">Elementary School II</string>
+    <string name="radio_ensino_medio">High School</string>
+
+    <string name="tit4">your professor</string>
+    <string name="tit5">on this page</string>
+    <string name="label_salario">Salary:</string>
+    <string name="hint_salario">$</string>
+    <string name="label_data_admissao">Admission date:</string>
+    <string name="hint_data_admissao">MM/DD/YYYY</string>
+    <string name="radio_feminino">Female</string>
+    <string name="radio_masculino">Male</string>
+
+    <string name="label_nome_turma">Class name:</string>
+    <string name="label_tutor_responsavel">Responsible tutor:</string>
+    <string name="label_lista_alunos">Student list:</string>
+    <string name="label_turno">Shift:</string>
+
+    <string name="op_matutino">Morning</string>
+    <string name="op_vespertino">Afternoon</string>
+
+    <string name="btn_excluir">Delete</string>
+    <string name="btn_editar">Edit</string>
+
+</resources>
+

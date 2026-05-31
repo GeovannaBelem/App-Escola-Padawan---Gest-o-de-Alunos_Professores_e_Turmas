@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#705BF9">
+
+    <Button
+        android:id="@+id/btn_cadastrar_aluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar_aluno"
+        android:layout_marginTop="50dp"
+        android:textColor="#FFFFFF"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:backgroundTint="#5271FF" />
+
+    <Button
+        android:id="@+id/btn_cadastrar_professor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar_professor"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#5271FF"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/btn_cadastrar_turma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar_turma"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#5271FF"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp" />
+
+</LinearLayout>

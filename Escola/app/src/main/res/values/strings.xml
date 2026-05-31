@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Escola</string>
+    <string name="cadastrar_aluno">Cadastrar Aluno</string>
+    <string name="cadastrar_professor">Cadastrar Professor</string>
+    <string name="cadastrar_turma">Cadastrar Turma</string>
+
+</resources>
