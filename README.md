@@ -1,4 +1,4 @@
-# App-Escola-Padawan---Gestao-de-Alunos_Professores_e_Turmas
+# App: Escola-Padawan - Gestao de Alunos, Professores e Turmas
 # 📚 App Escola Padawan
 
 Aplicativo Android simples para gerenciamento escolar, desenvolvido em Java com SQLite.
